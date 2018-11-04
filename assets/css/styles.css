@@ -1,13 +1,32 @@
 body{
+    font-family: Arial, Helvetica, sans-serif;
+    height: 200px;
+    background-color: #cccccc;
+    background-image: linear-gradient(red, yellow);
+}
+    border-block-end-width: 20px;
     font-size: 20px;
-    font-family: sans-serif;
-    color: #333;
+    color: rgb(255,255,255);
+}
+header {
+    background-color: #297
+
+}
+#quiz{
+    text-align: center;
+    color: rgb(255,255,255);
+    
+}
+h1 {
+    text-align: center;
+    color: rgb(255,255,255);
 }
 .question{
     font-weight: 600;
 }
 .answers {
     margin-bottom: 20px;
+    
 }
 #submit{
     font-family: sans-serif;
