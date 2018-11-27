@@ -1,43 +1,23 @@
-<!DOCTYPE <!DOCTYPE html>
-<html>
-<head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Page Title</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-   <link rel="stylesheet" type="text/css" href="assets/css/styles.css" >
-    <!--BootStrap Link-->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <!--Java Script Link-->
-   <script rel type="text/javascript" src="assets/javascript/marvel.js"></script>
-   <script rel type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js "></script>
-</head>
-<body>
-    <header>
-        <h1>Musical Trivia</h1>
-    </header>
-       <div id="quiz"></div>
-           <!----<button id="submit">Get results</button>-->
-       <div id="results"></div>
-  
-<!--Pseudo Code-->  
-    <!--Build a array with contents identifying trivia. Music is the focus of this game.-->
-    <!--Load musical groups and or indiviuals into an array.-->
-    <!--Establish a timer, that will cause the counters to be reset if the users does not make a selection.-->
-    <!--Establish counters to keep track of the number of correct selections-->
-    <!--Establish counters to keep track of number of failures.-->
-    <!--Prior to the user selecting a correct answer about a trivia topic,-->
-    <!--the application should pull a group or individual regarding a trivia qustion-->
-    <!--If the user selects the correct answer, he/she will receive a message stating-->
-    <!--that he or she won-->
-    <!-- A win counter is updated-->
-    <!-- If the user selects the wrong answer, he/she will receive a message stating that -->
-    <!--- the loss.-->
-    <!-- A loss counter is updated. -->
-    <!---If the user does not answer, then he/she will receive a messgae stating that time is up.-->
-    <!-- The next message will display in a few seconds (delay). This will occur after a few second wait.-->
-    <script type="text/javascript" src="assets/javascript/app.js"></script>
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+ 	<title>Music Trivia</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script type="text/javascript" src="assets/javascript/app.js"></script>
+ </head>
+ <body>
+ <h1>Music Trivia</h1>
+ <div class="wrapper">	
+  	<div id= "timeleft"></div>
+	<div id= "questionblock"></div>
+	<div id= "answerblock"></div>
+	<!----<button class ="btn btn-success" id ="start">Start Game</button><br>-->
+	<button class ="btn btn-success" id ="start">Start Game</button>
+	<button class ="btn btn-success" id ="reset">Play Again?</button><br>
+</div>
 </body>
-
-
-</html>
+</html> 
